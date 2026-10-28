@@ -1,0 +1,9 @@
+{
+  "name": "twoshell-lab-14-2-35",
+  "private": true,
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

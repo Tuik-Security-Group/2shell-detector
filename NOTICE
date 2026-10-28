@@ -1,0 +1,32 @@
+2Shell Detector
+Copyright (c) 2026 Tuik Security Group
+
+This project is distributed under LGPL-3.0-only. The complete license is
+in LICENSE; the incorporated GPLv3 terms are in COPYING.
+
+Adapted probe code
+------------------
+The PHP upload-progress probe and React property-reference probe in
+twoshell.py adapt portions of these LGPLv3 public checks:
+
+PortSwigger/bambdas, revision e87559f8800db04a2b67400fdd3c1631a5244fba
+
+* CustomScanChecks/CVE-2026-109618CVE-2026-109619-PHP2Shell.bambda
+  Original author credit: Tom SL (https://github.com/TomLefley).
+* CustomScanChecks/CVE-2025-55182CVE-2025-66478-React2Shell.bambda
+  Original author credit: Dave Paterson, PortSwigger.
+
+Source: https://github.com/PortSwigger/bambdas/tree/e87559f8800db04a2b67400fdd3c1631a5244fba/CustomScanChecks
+License: https://github.com/PortSwigger/bambdas/blob/e87559f8800db04a2b67400fdd3c1631a5244fba/LICENSE
+
+Modified by Tuik Security Group, October 28, 2026: Python request transport,
+bounded request/response handling, baseline rejection, strict response type
+checks, benign controls, health checks, coverage reporting and batching.
+This notice preserves the provenance of the adapted portions. It does not
+imply endorsement by the original authors.
+
+Optional fixture dependencies
+-----------------------------
+The fixture applications install framework and runtime dependencies from
+their publishers. Those dependencies retain their respective licenses and
+are not included as installed dependencies in this source distribution.

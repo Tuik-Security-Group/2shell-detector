@@ -1,0 +1,9 @@
+{
+  "name": "twoshell-lab-16-0-7",
+  "private": true,
+  "dependencies": {
+    "next": "16.0.7",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "target_url": "http://127.0.0.1:8765/patched",
+  "php": {
+    "present": true,
+    "version": "8.4.27",
+    "web_exposed": true,
+    "evidence": {
+      "source": "local_file",
+      "source_ref": "fixture_evidence.json",
+      "artifact_digest": "sha256:7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d",
+      "observed_at": "2026-10-27T00:00:00Z"
+    }
+  },
+  "react": {
+    "present": true,
+    "rsc_package": "react-server-dom-webpack",
+    "rsc_version": "19.2.1",
+    "rsc_exposed": true,
+    "next_version": "15.5.7",
+    "next_app_router": true,
+    "evidence": {
+      "source": "local_file",
+      "source_ref": "fixture_evidence.json",
+      "artifact_digest": "sha256:7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d",
+      "observed_at": "2026-10-27T00:00:00Z"
+    },
+    "framework": "next",
+    "all_rsc_packages_audited": true
+  },
+  "brotli": {
+    "all_decoders_audited": true,
+    "decoders": [
+      {
+        "name": "web decoder",
+        "implementation": "google-brotli-c",
+        "version": "1.2.1",
+        "decodes_untrusted_data": true,
+        "evidence": {
+          "source": "local_file",
+          "source_ref": "fixture_evidence.json",
+          "artifact_digest": "sha256:7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d",
+          "observed_at": "2026-10-27T00:00:00Z"
+        }
+      }
+    ],
+    "evidence": {
+      "source": "local_file",
+      "source_ref": "fixture_evidence.json",
+      "artifact_digest": "sha256:7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d",
+      "observed_at": "2026-10-27T00:00:00Z"
+    }
+  },
+  "deployment_evidence": {
+    "source": "local_file",
+    "source_ref": "fixture_evidence.json",
+    "artifact_digest": "sha256:7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d",
+    "observed_at": "2026-10-27T00:00:00Z",
+    "all_instances_audited": true,
+    "deployment_id": "synthetic-fixture_patched",
+    "running_artifact": "sha256:7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d"
+  }
+}

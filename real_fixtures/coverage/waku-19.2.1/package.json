@@ -1,0 +1,17 @@
+{
+  "name": "twoshell-local-waku-19.2.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-server-dom-webpack": "19.2.1",
+    "waku": "0.27.3"
+  },
+  "overrides": {
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-server-dom-webpack": "19.2.1",
+    "@vitejs/plugin-rsc": "0.5.6"
+  }
+}

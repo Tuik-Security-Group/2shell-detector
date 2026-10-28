@@ -1,0 +1,3 @@
+# Replace these reserved example domains with authorized application URLs.
+https://app.example/
+https://portal.example/account

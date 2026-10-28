@@ -1,0 +1,4 @@
+{
+  "fixture_only": true,
+  "description": "Synthetic response and version-rule fixture. These statements are not evidence of a deployed vulnerable service."
+}

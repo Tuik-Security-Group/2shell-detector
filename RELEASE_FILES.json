@@ -1,0 +1,449 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "ad5e17feaff587af5b737e764205123ef42225c0eee7fae93380162240736904"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "596719cfbc326a6e5748d10b4e8046fab8053899a55bd5c3e10d60a559cd675b"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "681e40fdb788fb7667cc713f3276fac4df260f6f5c62ae3671a40bcf6389e941"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "1e2a79a8e16d56437e4eb256097f9fddb356f2115393c61699685e410e5cbc9b"
+    },
+    {
+      "path": "COPYING",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "23e866900264a148b28f0718d849847126ee6f1c2fb3e87c8c06d85c6fd9e7cc"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "170af4bd54f7b19ee943d086d03ddfd97839e747d412f3db53357ff47e205232"
+    },
+    {
+      "path": "README.md",
+      "sha256": "aa19cd7cfc2b1068e99d617d67e5b70c5d6e758635a2422f0708d36725ec739c"
+    },
+    {
+      "path": "docs/INVENTORY.md",
+      "sha256": "e1575ab1de595944c41cc7b576cd24db13b2e59fd809c359016c69e7cf163b88"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "2ccbe062ace2791f223d1e929b79e138f57c213355e4cdc9b15c8667a778ba1b"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "sha256": "0437a3331964890029302786a0725d8d7ba6bc094481f21e15897a92f694f439"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "sha256": "ac5965fbd57d007e679f7b1663dbe5900c9805d76f9d768ad58213e5e68eb9b5"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "c8c8843fec4b3cbc0f17fa5cce34edb7fe5b7cd648899c327e11e8a04c24493c"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/app/root.tsx",
+      "sha256": "d872a5196f0eb5a495f4b70005cb78de08ac9eeeb98549c94b4668c5f3810127"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/app/routes.ts",
+      "sha256": "e0504f7d7de111f7fcfe08cfdff18af61e93b00f8d5306435245b72ce028c837"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/app/routes/home.tsx",
+      "sha256": "3078524a1707b179dd3bdab66fa9c043c087647158ac72eb434fca15d50406a6"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/package-lock.json",
+      "sha256": "ea6a12ae0d71334d3fa5621987675609754ef3c1a26b4f279cea2562e314f397"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/package.json",
+      "sha256": "5f17005b6722641b7f76d4c36a7a47ff03a89827a4fd010ee9989371dd4981f2"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/react-router.config.ts",
+      "sha256": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.0/vite.config.ts",
+      "sha256": "a42e6465830b9c084e6b9284114e46d8efbf52f49023b81d619ad952becef973"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/app/root.tsx",
+      "sha256": "d872a5196f0eb5a495f4b70005cb78de08ac9eeeb98549c94b4668c5f3810127"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/app/routes.ts",
+      "sha256": "e0504f7d7de111f7fcfe08cfdff18af61e93b00f8d5306435245b72ce028c837"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/app/routes/home.tsx",
+      "sha256": "3078524a1707b179dd3bdab66fa9c043c087647158ac72eb434fca15d50406a6"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/package-lock.json",
+      "sha256": "348bc5731d084a3aff1f758a67eb62522e3c4491c75bbc4bd330186e612922a6"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/package.json",
+      "sha256": "8398318762e41fc5d3f275a8ffd17e2dcfc5eaf0054ded00ee9f739bdf18d907"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/react-router.config.ts",
+      "sha256": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786"
+    },
+    {
+      "path": "real_fixtures/coverage/react-router-19.2.1/vite.config.ts",
+      "sha256": "a42e6465830b9c084e6b9284114e46d8efbf52f49023b81d619ad952becef973"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.0/package-lock.json",
+      "sha256": "9d7efcf8f52b9931b5f2c90cdd6f53eddbfb642b3f98935fca240946c3d06e23"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.0/package.json",
+      "sha256": "ff6e14983509c38698a3d0b3afe3d798543e695ad360db10b4b53963a2eb5d67"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.0/src/components/form.tsx",
+      "sha256": "f06db8d0ec5af4b079ee037d8499a3bf69bf17b3def488cb8b407d29e96ec34d"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.0/src/pages/_layout.tsx",
+      "sha256": "4e1abb45a47f22c209abd5b6202e170a55de5fa0e1af5849e8d6b2b16b234709"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.0/src/pages/index.tsx",
+      "sha256": "4bf8fc887389870c319248ce0dc8d9124af9f0319fcb0bc094495ced27e248c4"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.1/package-lock.json",
+      "sha256": "06cac8a63559c23e80695bda48f013c41794395f3e0b88cdedf4dca0a62ef7c9"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.1/package.json",
+      "sha256": "eedacec094c7b5ba18436332ce73c20bda7903b5bfd24b9ebe4c06078221ac2b"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.1/src/components/form.tsx",
+      "sha256": "f06db8d0ec5af4b079ee037d8499a3bf69bf17b3def488cb8b407d29e96ec34d"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.1/src/pages/_layout.tsx",
+      "sha256": "4e1abb45a47f22c209abd5b6202e170a55de5fa0e1af5849e8d6b2b16b234709"
+    },
+    {
+      "path": "real_fixtures/coverage/waku-19.2.1/src/pages/index.tsx",
+      "sha256": "4bf8fc887389870c319248ce0dc8d9124af9f0319fcb0bc094495ced27e248c4"
+    },
+    {
+      "path": "real_fixtures/matrix/next-13.5.11/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-13.5.11/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-13.5.11/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-13.5.11/next.config.js",
+      "sha256": "8eaa68d1e27a2b890265fe3e4ccb3188975c7385287e2dd947093d34458e390b"
+    },
+    {
+      "path": "real_fixtures/matrix/next-13.5.11/package-lock.json",
+      "sha256": "a05d627e6b6a1e226882bae464c99dcac0c713b3a7a3f9ddac82213620738bc7"
+    },
+    {
+      "path": "real_fixtures/matrix/next-13.5.11/package.json",
+      "sha256": "c9fb089d035084254cac7b81c3983ba9d79262728e5dbc90871a66a7fe98ce38"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.33/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.33/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.33/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.33/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.33/package-lock.json",
+      "sha256": "80fb761dba0406588159f32323108d175f6f2437d2635fa1371b4bf69c20d260"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.33/package.json",
+      "sha256": "82d75b3eeb5059fde3b414421b255a54f9d962d41089c0d4fb65074615821058"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.35/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.35/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.35/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.35/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.35/package-lock.json",
+      "sha256": "d4464789bad6f53ede464f4f9191466775a59672f93b6e1747d25b4069adad2a"
+    },
+    {
+      "path": "real_fixtures/matrix/next-14.2.35/package.json",
+      "sha256": "5221693f160a2cbeab2867cc0a82bd8be8f3fb3697ea7bebdb8abf41a7777dc8"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.8/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.8/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.8/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.8/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.8/package-lock.json",
+      "sha256": "a1955f5fdae9cc62f0da4a92a63d8e1fb01fb454d220188037ee14e102441621"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.8/package.json",
+      "sha256": "6a0f48b12a20d941a95d963a8ad9db8e2ecc9094e455c628116a64cda1b0fad5"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.9/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.9/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.9/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.9/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.9/package-lock.json",
+      "sha256": "9c3b761016f2d666691617f054e12844aef5e75088f7e6ec984583cc34301431"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.1.9/package.json",
+      "sha256": "1c35ba24bb2565763b9cc3730bafbda2c3eae11ea7acd09202c0c84b7689bd9d"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.6/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.6/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.6/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.6/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.6/package-lock.json",
+      "sha256": "414a6719dd6e8279eb3fbdbfc0cc26e30a30fdb3d535fdaa31ed000348d13cb8"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.6/package.json",
+      "sha256": "35d5cf04fcf68d4599643753970a896db7f5ee2af134bdbd00bc295c270a42e4"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.7/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.7/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.7/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.7/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.7/package-lock.json",
+      "sha256": "3aa69cb7bf65f2cbadf862d618e9359eaa648e137eadcd938113376fccf0ee95"
+    },
+    {
+      "path": "real_fixtures/matrix/next-15.5.7/package.json",
+      "sha256": "5a63b0ea44ad7d5cc1b9e43aa65640b8d41eae79fcaec025d914a04b3d69716e"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.6/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.6/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.6/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.6/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.6/package-lock.json",
+      "sha256": "d91adfeca61b64d5bbf2eae4eb2071ed798b6ac48df352c76a0afdfa39eafb18"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.6/package.json",
+      "sha256": "d2ebfba276f09fb4dd68758581bf90af8307ed3ecf50a6159e05cc710fa054e0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.7/app/account/page.js",
+      "sha256": "1d4b1d8adfcd90f220074bbe7a8bb6820268260c031838ef98ab2130b9c3cfc0"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.7/app/layout.js",
+      "sha256": "65566efa91a4ad9fcde09d2835f1cb3f99025e4a0dcbb2dee50ea3de3bab8726"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.7/app/page.js",
+      "sha256": "54dbd39dca7dc3999e6744776cba1f8859b4fd61b5e50491e60e8923ec12f7ef"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.7/next.config.js",
+      "sha256": "27fd53f633f87193288cdc92a67d9df992e922c77bdb60e7d460000e3e5dcc49"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.7/package-lock.json",
+      "sha256": "a29fffdf9d4ff52312dac27ed5d05a224997c5af6af24f4bb9c612e097dc470b"
+    },
+    {
+      "path": "real_fixtures/matrix/next-16.0.7/package.json",
+      "sha256": "29c425cede46e3e891fc261d4fa767bd998525d0cfa337bc4436dad29ef44e2a"
+    },
+    {
+      "path": "real_fixtures/php/index.php",
+      "sha256": "914e7058e6fdd07cc2ffc40dda4bf236e458d0cdaa92dc707161c2bf030dfc0d"
+    },
+    {
+      "path": "real_fixtures/prepare_coverage.py",
+      "sha256": "304bee005b1fa2fa204e0f428f14854c1c336689428602b6c569aca5d704ac5f"
+    },
+    {
+      "path": "real_fixtures/prepare_matrix.py",
+      "sha256": "cd092aea07a2b5cacebe2570f1c0bf468c38a552c6e754333501f363f42b2235"
+    },
+    {
+      "path": "real_fixtures/run_coverage.py",
+      "sha256": "6fea5ead4e18d165d44741dc81ee93af29e7d90d18c47c00d66c0c952881ecca"
+    },
+    {
+      "path": "real_fixtures/run_matrix.py",
+      "sha256": "cf405a0316a55f1a161571fc797d61ef28685eeae6f0cb4ed3c88d657c071a1e"
+    },
+    {
+      "path": "real_fixtures/verify_decoder.mjs",
+      "sha256": "7bbda26b87cad21097c9f3d21a9babfd20cff905de634beaeb7b98c125ff661f"
+    },
+    {
+      "path": "targets.example.txt",
+      "sha256": "a2a198322d45eeba7c828507ba0ba415d4fa2ec29c332babee60a580f6e9fd74"
+    },
+    {
+      "path": "tests/fixture_evidence.json",
+      "sha256": "7439bb85057cd5efe2da188ab23f9a271fd24bdad5257c9f6d46bdd3fc2a406d"
+    },
+    {
+      "path": "tests/fixture_patched.json",
+      "sha256": "8dbe6c7b90e63e8ed48238103e674ca32b4e58ca4c0ad803fd77008dbdbdde65"
+    },
+    {
+      "path": "tests/fixture_server.py",
+      "sha256": "ffaf8699cbeda759b3763bafc2804a0155b63473501ae068489cf55a370319c1"
+    },
+    {
+      "path": "tests/fixture_vulnerable.json",
+      "sha256": "3b6746285b7c4dbafeca1c9ad3dec4340655e508cb560be706603d93d8324d90"
+    },
+    {
+      "path": "tests/test_batch.py",
+      "sha256": "e3f5425dbb1f304bcd18f85bb98151ad51a64420884b6ba320c2acccd0e5997c"
+    },
+    {
+      "path": "tests/test_discovery.py",
+      "sha256": "fccd05dbdb0124555e61e978a556128ec566c95800e782f83ac01dd3f04ca578"
+    },
+    {
+      "path": "tests/test_platform.py",
+      "sha256": "0690d2dd33b5c62ac3eafc92e4ddbd475cb656f79e850c02ffec2cf20133fd15"
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha256": "bec0754913b087b030602e2181c1510b227210c0fca47c894bcf8b8b156c8987"
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "31d7868fbb46b8b7d3897ea4ced5ae15bd040f96be65ce88263914cade901357"
+    },
+    {
+      "path": "tests/test_twoshell.py",
+      "sha256": "cf8fec5ada8cc3c115483864f3115f61e17eb18792ddad84deb73728ec9fbe00"
+    },
+    {
+      "path": "tests/test_waku.py",
+      "sha256": "3e727f1eb01ffacc35b7731697ab8aaff42079f2f3070eb8dd438a10dafe61d8"
+    },
+    {
+      "path": "tools/build_source_zip.py",
+      "sha256": "a4cc5880daa89d9043baf2cfaa79bab4a8da6a3ab4aa98e6a2f581cc43fac961"
+    },
+    {
+      "path": "twoshell.py",
+      "sha256": "a56bf99bcd884b370891b939e56b427f0f8213c46935f1994fb1d764dd0bcee0"
+    }
+  ]
+}
